@@ -4,10 +4,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta description="WDD 230 Abby Leishman course assignment portal">
     <title>Home Portal Page</title>
 </head>
 <body>
-    
+    <nav>
+        <svg xmlns="http://www.w3.org/2000/svg" height="48" width="48"><path d="M6 36v-3h36v3Zm0-10.5v-3h36v3ZM6 15v-3h36v3Z"/></svg>
+        <a href="https://www.linkedin.com/in/abby-leishman-1b57a5206/">LinkedIn</a>
+        <a href="https://www.byui.edu/">BYU-Idaho</a>
+    </nav>
 </body>
 </html>
 
@@ -17,38 +22,54 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>WDD230 Abby Leishman</title>
+        <title>WDD 230 - Portal - Abby Leishman</title>
         <meta description="Assignment portal for Abby Leishman in WDD230 - Web Frontend Development.">
-        <link rel="stylesheet" href="styles/style.css">
+        <link rel="stylesheet" href="styles/base.css">
+        <link rel="stylesheet" href="styles/larger.css">
         
     </head>
 
     <body>
         <header>
             <picture>
-                <img src="images/snowboard.jpeg" alt="Snowboarding" style="max-width: 30%;">
+                <img src="images/snowboard.jpeg" alt="Snowboarding" style="max-width: 40%;">
             </picture>
             <h1 class ="name">Abby Leishman</h1>
         </header>
         <main>
-            <h2>WDD230: Assignment Portal</h2>
-            <ul>
-                <li>Lesson 02: <a href="">Design Principles</a></li>
-                <li>Lesson 03: <a href="">Responsive Website Planning</a></li>
-                <li>Lesson 04: <a href="">Responsive Layouts</a></li>
-                <li>Lesson 05: <a href="">The Chamber Home Page</a></li>
-                <li>Lesson 06: <a href="">Responsive Images</a></li>
-                <li>Lesson 07: <a href="">An Image Gallery on the Discover Page</a></li>
-                <li>Lesson 08: <a href="">HTML Forms</a></li>
-                <li>Lesson 09: <a href="">JSON and the Fetch() API</a></li>
-                <li>Lesson 10: <a href="">Weather API</a></li>
-                <li>Lesson 11: <a href="">Learning Project Website</a></li>
-            </ul>
+            <h2>WDD 230: Course Activity Portal</h2>
+
+            <section class="card1">
+                <h3>Learning Activities</h3>
+                <ul style="list-style: none;">
+                  <li><a href="#">Lesson 1</a></li>
+                  <li><a href="#">Lesson 2</a></li>
+                  <li><a href="#">Lesson 3</a></li>
+                  <li><a href="#">Lesson 4</a></li>
+                  <li><a href="#">Lesson 5</a></li>
+                  <li><a href="#">Lesson 6</a></li>
+                  <li><a href="#">Lesson 7</a></li>
+                  <li><a href="#">Lesson 8</a></li>
+                  <li><a href="#">Lesson 9</a></li>
+                  <li><a href="#">Lesson 10</a></li>
+                  <li><a href="#">Lesson 11</a></li>
+                </ul>
+            </section>
+            <section class="card2">
+               <h3>Project</h3>
+               <a href="/project-folder">Go to project folder</a>
+            </section>
+            <section class="card3">
+                <h3>Information</h3>
+                <p>Current weather: <span id="weather"></span></p>
+                <p>Number of page visits: <span id="visits"></span></p>
+            </section>
         </main>
        <footer class="footer">
         &copy; <span class="currentyear"></span> | Abby Leishman | Idaho
     <div class="subscript">Last Updated: <span id="lastModified"></span></div>
-<script src="./scripts/script.js" defer></script>
+<script src="./scripts/getDates.js" defer></script>
 </footer>
 </body>
 </html>
+
