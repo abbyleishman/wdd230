@@ -11,7 +11,7 @@ body {
 }
 
 footer {
-    background-color: #fed9b7;
+    background-color: #f8edeb;
     padding: 20px;
     border: 4px solid #f07167;
     border-radius: 1em;
@@ -82,7 +82,7 @@ header {
     justify-content: flex-start;
     width: 100%;
     font-family: "Monsterrat", sans-serif;
-    background-color: #fed9b7;
+    background-color: #f8edeb;
     padding: 20px;
     border: 4px solid;
     border-radius: 1em;
@@ -92,4 +92,9 @@ header {
 header img {
     max-width: 30em;
     margin: 1em;
+}
+nav{
+    padding: 20px;
+    color: black;
+    font-size: 20px;
 }
