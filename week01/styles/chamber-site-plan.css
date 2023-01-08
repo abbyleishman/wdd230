@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@300&display=swap');
+
+header {
+    background-color: #457B9D;
+    height: 100px;
+    text-align: center;
+    font-size: xx-large;
+    padding-top: 30px;
+    color: white;
+    font-family: "Roboto";
+}
+nav {
+    background-color: #91C9ED;
+    font-family: "Roboto";
+    height: 60px;
+    color: white;
+    font-size: x-large;
+    padding-left: 50px;
+    padding-top: 10px;
+}
+body {
+    background-color: white;
+}
+.purpose h1 {
+    text-align: center;
+    font-family: "Lora";
+    font-size: 40px;
+
+}
+.purpose p {
+    font-family: "Lora";
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.scenerios {
+    text-align: center;
+    
+    
+}
+.scenerios h1 {
+    font-family: "Lora";
+    font-size: 40px;
+}
+
+.colorschema {
+    text-align: center;
+    
+}
+.colorschema h1 {
+    font-family: "Lora";
+    font-size: 40px;
+}
+.colorschema div {
+    font-size: large;
+}
+
+.typography {
+    text-align: center;
+    font-family: "Lora";
+    font-size: 30px;
+}
+.typography h3:nth-of-type(3) {
+    font-family: "Lora";
+    font-size:x-large;
+}
+.typography h3:nth-of-type(1) {
+    font-family: "Lora";
+    font-size: x-large;
+}
+.typography h3:nth-of-type(2) {
+    font-family: "Lora";
+    font-size:x-large;
+}
+     
+.wireframe {
+    text-align: center;
+    font-family: "Heebo";
+    font-size: 30px;
+}
+
+img:first-of-type{
+    width: 400px;
+    height: 600px;
+    display: block;
+    margin: auto;
+}
+
+img:nth-of-type(2) {
+    width: 200px;
+    height: 400px;
+    align-items: center;
+    display: block;
+    margin: auto;
+}
+
+
+ul {
+    display: inline-block;
+    margin: auto;
+    font-family: "Heebo";
+}
+
+footer {
+    text-align: center;
+    color: white;
+    font-size:xx-large;
+    height: 100px;
+    font-family: "Heebo";
+
+}
