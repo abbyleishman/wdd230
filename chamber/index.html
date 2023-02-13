@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+          content= "Santa Clarita Chamber of Commerce information website">
+    <title>Chamber of Commerce</title>
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/medium.css" >
+    <link rel="stylesheet" href="styles/large.css">
+    <link rel="icon" href="images/favicon.ico">
+    <script defer src="scripts/main.js"></script>
+</head>
+<body>
+    <div id="content">
+        <header>
+            <a href="index.html"> <img class="scv-logo" src="images/scv_chamberlogo copy.png" alt="scv city logo"> </a>
+            <h1 class="name">Santa Clarita</h1>
+            <h2 class="name1">Chamber of Commerce</h2>
+            <img class="social_media1" src="images/facebook.png" alt="facebook logo">
+            <img class="social_media2" src="images/twitter.png" alt="twitter logo">
+            <nav>
+                <ul class="navigation">
+                    <li><button onclick="toggleMenu()">&#9776;</button></li>
+                    <li><a href="discover.html">Discover</a></li>
+                    <li><a href="directory.html">Directory</a></li>
+                    <li><a href="join.html">Join</a></li>
+                </ul>
+            </nav>
+            <!-- <button type="button" class="ham">≡</button> -->
+            <div class="date"></div>
+            <div id="banner">Come join us for the chamber meet and greet Wednesday at 7:00 p.m.</div>
+        </header>
+        <main>
+            <section class="hero">
+                <picture>
+                    <source srcset="images/small-town.jpeg" media="(min-width:725px) and (max-width: 1075px)">
+                    <source srcset="images/small-town.jpeg" media="(min-width:1075px)">
+                    <img src="images/small-town.jpeg" id=town alt="aerial view of town">
+                </picture>
+                <h1>Welcome to Santa Clarita</h1>
+                
+                
+                <button id="btn-join" onclick="window.location.replace('join.html')">Join the Chamber</button>
+            </section>
+            <section class="event">
+                <h2>Ribbon Cutting</h2>
+                <h3>&#9826;The Diamond Shack</h3>
+                <p class="event-info">Join us for the grand opening of The Diamond Shack, Thursday at 1:00 p.m.</p>
+                <p class="more-info">more info...</p>
+            </section>
+            <section class="weather">
+                <h2 class="weather-title">Weather</h2>
+                <!-- <h1>OpenWeatherMap.org API Test</h1> -->
+                <p id="current-temp2"><span id="current-temp"></span> &deg;F</p>
+                <p><span id="icon-src"></span></p><figure><img src="#" alt="" id="weathericon" />  <figcaption></figcaption></figure>
+                <hr>
+                <p class="ws">Wind Speed: <span id="ws"></span> mph</p>
+                <p class="wc">Wind Chill: <span id="wc">N/A</span></p>
+            </section>
+            <section class="news">   
+                <h2 class="news-title">News Release</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut 
+                    labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco 
+                    laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in 
+                    voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat 
+                    non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            </section>
+            <section class="spotlight">
+                <section class="sl1">
+                    <h2 class="sl1-title">Thankful Transport</h2>
+                    <img src="images/truck.png" alt="cute truck" id="truck">
+                    <p>"We get it there for you!"</p>
+                    <hr>
+                    <div id="below-line">
+                        <p>hello@thankfultransport.com</p>
+                        <p>+999-9999-9999 Website</p>
+                    </div>
+                </section>
+                <section class="sl2">
+                    <h2 class="sl2-title">Code Primera</h2>
+                    <img src="images/color-pencil.webp" alt="color pencils" id="pencil">
+                    <p>An after school coding instructional program.</p>
+                    <hr>
+                    <div id="below-line2">
+                        <p>contact@codeprimera.com</p>
+                        <p>+999-9999-9999 | Website</p>
+                    </div>
+                </section>
+                <!-- <p class="sl2">Spotlight2</p> -->
+                <section class="sl3">
+                    <h2 class="sl3-title">Build A Treefort</h2>
+                    <img src="images//treehouse.png" alt="treehouse" id="treehouse">
+                    <p>Over 1,000 Plans!</p>
+                    <hr>
+                    <div id="below-line3">
+                        <p>builda@treefort.com</p>
+                        <p>+888-8888-8888 Website</p>
+                    </div>
+                </section>
+                <!-- <p class="sl3">Spotlight3</p> -->
+            </section>
+            <section class="join">    
+                
+                
+                
+                <button id="btn-joinus" onclick="window.location.replace('join.html')">Join Us!</button>
+                <p>Discover how to join the Chamber of Commerce and how it will benefit your organization!</p>
+            </section>  
+        </main>
+        <footer>
+            <div class="footer-content">
+                <img class="scv-logo2" src="images/scv_chamberlogo copy.png" alt="scv city logo">
+                <div id="info1">
+                    <h2>Santa Clarita Chamber of Commerce</h2>
+                    <p>28494 Westinghouse Pl., Santa Clarita, CA 91355</p>
+                </div>
+                <div id="info2">
+                    <p>info@scvcoc.org</p>
+                    <p>+(661) 702-6977</p>
+                    <div class="map">
+                        <a href="https://www.google.com/maps/place/Santa+Clarita+Valley+Chamber+of+Commerce/@34.4430992,-118.6010033,17z/data=!3m1!4b1!4m6!3m5!1s0x80c280b2add3774d:0x2a1c12d713216bb6!8m2!3d34.4430992!4d-118.5988146!16s%2Fg%2F1tg50pft">
+                            <img src="images/pin.jpeg" alt="location pin" class="pin">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div id="me">
+                <p class="time">&copy;<span class="year"></span> Santa Clarita Chamber</p> 
+                <h3>Abby Leishman</h3>
+                <p class="class">WDD 230 Project</p>
+                <p class="updates">Last Modification: <span class="updated"></span></p>
+            </div>
+        </footer>
+    </div>    
+</body>
+</html>
