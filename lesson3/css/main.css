@@ -9,7 +9,7 @@ header {
     background-color: #CFECEC;
     padding-bottom: 25px;
     padding-top: 25px;
-    color:rgb(74, 85, 96);
+    color:black;
     padding-left: 10px;
     padding-right: 10px;
     font-size: 1.25em;
@@ -17,7 +17,7 @@ header {
 nav {
   font-family: poppins;
   font-size: 1.25em;
-  color: #4a5560;
+  color: black;
 }
 .galt-logo {
     display: block;
@@ -33,19 +33,19 @@ nav {
 }
 p {
     font-family: poppins;
-    color: #4a5560;
+    color: black;
     text-align: left;
     margin: 10px;
     font-size: 1.25em;
 }
 h1 {
-    color: #4a5560;
+    color: black;
     font-family: lexend;
 }
 .colors {
     background-color: aliceblue;
     padding: 5px;
-    color: #4a5560;
+    color: black;
     width: 100%;
     min-width: 50px;
     text-align: center;
@@ -63,7 +63,7 @@ h1 {
     background-color: #7EF2F2;
   }
   .text-color {
-    background-color: #4a5560;
+    background-color: black;
     color: aliceblue;
   }
   .name {
@@ -77,12 +77,12 @@ h1 {
     text-decoration: none;
     text-align: center;
     align-self: center;
-    color:#4a5560;
+    color:black;
     font-size: .75em;
   }
   h2 {
     font-family: lexend;
-    color: rgb(74, 85, 96);
+    color: black;
     text-align: center;
   }
   main {
@@ -94,11 +94,11 @@ h1 {
     font-family: poppins;
 }
 .color-of-text {
-    color: #4a5560;
+    color: black;
     font-family: poppins;
 }
 .audience {
-    color: #4a5560;
+    color:black;
     font-family: lexend;
 }
 .audience-info {
@@ -106,7 +106,7 @@ h1 {
     font-size: 1.25em;
 }
 .font {
-    color: #4a5560;
+    color: black;
     text-align: center;
     font-family: lexend;
     font-size: 2.5em;
