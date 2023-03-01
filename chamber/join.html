@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Join Us</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="styles/main.css" >
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/large.css">
+    <link rel="icon" href="images/favicon.ico">
+    <script defer src="scripts/main.js"></script>
+</head>
+<body>
+    <div id="content">
+        <header>
+            <a href="index.html"> <img class="scv-logo" src="images/scv_chamberlogo_copy.png" alt="scv city logo"> </a>
+            <h1 class="name">Santa Clarita</h1>
+            <h2 class="name1">Chamber of Commerce</h2>
+            <img class="social_media1" src="images/facebook.png" alt="facebook logo">
+            <img class="social_media2" src="images/twitter.png" alt="twitter logo">
+            <nav>
+                <ul class="navigation">
+                    <li><button onclick="toggleMenu()">&#9776;</button></li>
+                    <li><a href="discover.html">Discover</a></li>
+                    <li><a href="directory.html">Directory</a></li>
+                    <li><a href="join.html">Join</a></li>
+                </ul>
+            </nav>
+            <div class="date"></div>
+            <div id="banner">Come join us for the chamber meet and greet Wednesday at 7:00 p.m.</div>
+        </header>
+        <div id="join-content">
+            <form method="get" action="thankyou.html">
+                <div id="form">
+                    <label for="fname">First Name*:</label>
+                    <input type="text" name="firstname" id="fname" required>
+
+                    <label for="lname">Last Name*:</label>
+                    <input type="text" name="lastname" id="lname" required>
+
+                    <label for="title">Business Position Title*:</label>
+                    <p class="input-info">(Only letters, spaces and dashes and at least 7 characters)</p>
+                    <input type="text" name="title" required id="title" pattern="[- A-Za-z]+" minlength="7">
+
+                    <label for="email">Email*:</label>
+                    <input type="email" name="email" required id="email" placeholder="johnsmith@hotmail.com">
+
+                    <label for="telephone">Cell Phone Number*:</label>
+                    <input type="tel" name="telephone" required id="telephone">
+
+                    <label for="business">Business Name*:</label>
+                    <input type="text" name="business" required id="business">
+
+                    <label id="member">Enter Your Membership</label>
+                    <div id="radio-main">
+                        <div id="radio1">
+                            <input type="radio" id="one" name="m-level" value="level1">
+                            <label for="one">Non Profit</label>
+                        </div>
+                        <div id="radio2">
+                            <input type="radio" id="two" name="m-level" value="level2">
+                            <label for="two">Bronze</label>
+                        </div>
+                        <div id="radio3">
+                            <input type="radio" id="three" name="m-level" value="level3">
+                            <label for="three">Silver</label>
+                        </div>
+                        <div id="radio4">
+                            <input type="radio" id="four" name="m-level" value="level4">
+                            <label for="four">Gold</label>
+                        </div>
+                    </div>
+                    <label for="message" id="message1">Business Description:</label>
+                    <textarea id="message" placeholder="Your business description here"></textarea>
+                </div>
+                <input id="date" type="hidden" name="todaydate">
+                <input id="button3" type="submit" value="Join the Chamber">
+            </form>
+            <div id="member-info">
+                <section id="np-member">
+                    <h1>NP Membership</h1>
+                    <ol>
+                        <li>For non profit organizations</li>
+                        <li>No fee</li>
+                    </ol>
+                </section>
+                <section id="bronze-member">
+                    <h1>Bronze Membership</h1>
+                    <ol>
+                        <li>15% discount on events</li>
+                        <li>10% discount on advertising</li>
+                        <li>Fee of $50 per month</li>
+                    </ol>
+                </section>
+                <section id="silver-member">
+                    <h1>Silver Membership</h1>
+                    <ol>
+                        <li>25% discount on events</li>
+                        <li>15% discount on advertising</li>
+                        <li>Free participation in the town fair</li>
+                        <li>Fee of $100 per month</li>
+                    </ol>
+                </section>
+                <section id="gold-member">
+                    <h1>Gold Membership</h1>
+                    <ol>
+                        <li>50% discount on events</li>
+                        <li>50% discount on advertising</li>
+                        <li>Free participation in the town fair</li>
+                        <li>5 free featured ads per year</li>
+                        <li>1 free event per quarter</li>
+                        <li>Fee of $250 per month</li>
+                    </ol>
+                </section>
+            </div>
+        </div>
+            <footer>
+                <div class="footer-content">
+                    <img class="scv-logo2" src="images/scv_chamberlogo_copy.png" alt="scv city logo">
+                    <div id="info1">
+                        <h2>Santa Clarita Chamber of Commerce</h2>
+                        <p>28494 Westinghouse Pl., Santa Clarita, CA 91355</p>
+                    </div>
+                    <div id="info2">
+                        <p>info@scvcoc.org</p>
+                        <p>+(661) 702-6977</p>
+                        <div class="map">
+                            <a href="https://www.google.com/maps/place/Santa+Clarita+Valley+Chamber+of+Commerce/@34.4430992,-118.6010033,17z/data=!3m1!4b1!4m6!3m5!1s0x80c280b2add3774d:0x2a1c12d713216bb6!8m2!3d34.4430992!4d-118.5988146!16s%2Fg%2F1tg50pft">
+                                <img src="images/pin.jpeg" alt="location pin" class="pin">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+                <div id="me">
+                    <p class="time">&copy;<span class="year"></span> Santa Clarita Chamber</p> 
+                    <h3>Abby Leishman</h3>
+                    <p class="class">WDD 230 Project</p>
+                    <p class="updates">Last Modification: <span class="updated"></span></p>
+                </div>
+            </footer>
+        </div>    
+    </body>
+    </html>
+        
+</body>
+</html>
