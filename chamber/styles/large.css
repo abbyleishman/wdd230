@@ -100,6 +100,7 @@
         grid-template-columns: 1fr 2fr 1fr;
         }
         .hero {
+            background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), src=("chamber/images/wdd230-orgLarge>800px.jpeg");
             grid-column: 2/3;
             grid-row: 1/3;
             margin-top: 25px;

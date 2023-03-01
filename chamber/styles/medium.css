@@ -19,6 +19,7 @@
         grid-template-columns: 1fr 1fr 1fr;
     }
     .hero {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),src=("chamber/images/wdd230-orgMedium800px.jpeg");
         grid-column: 1/4;
         grid-row: 1/2;
     }
