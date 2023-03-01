@@ -144,39 +144,27 @@
     margin-top: 56px;
     margin-bottom: 55px;
     } */
-    .sign {
+    .scv-sign {
         padding-left: 55px;
         padding-right: 55px;
       }
-      .high-school {
+      .scv-high {
         padding-left: 55px;
         padding-right: 55px;
       }
-      .night {
+      .scv-night {
         padding-left: 55px;
         padding-right: 55px;
       }
-      .historic {
+      .historic-scv {
         padding-left: 55px;
         padding-right: 55px;
       }
-      .ag-field {
+      .field {
         padding-left: 55px;
         padding-right: 55px;
       }
-      .restaurant {
-        padding-left: 55px;
-        padding-right: 55px;
-      }
-      .park {
-        padding-left: 55px;
-        padding-right: 55px;
-      }
-      .flea-market {
-        padding-left: 55px;
-        padding-right: 55px;
-      }
-      .water {
+      .salt-creek {
         padding-left: 55px;
         padding-right: 55px;
       }

@@ -481,7 +481,7 @@ picture img {
   width: 85%;
   margin-top: 25px;
 }
-.sign {
+.scv-sign {
   padding-left: 25px;
   padding-right: 25px;
   text-align: center;
@@ -491,7 +491,7 @@ picture img {
   /* width: 350px; */
   width: 85%;
 }
-.high-school {
+.scv-high {
   padding-left: 35px;
   padding-right: 35px;
   text-align: center;
@@ -500,7 +500,7 @@ picture img {
   /* height: 230px; */
   width: 85%;
 }
-.night {
+.scv-night {
   padding-left: 35px;
   padding-right: 35px;
   text-align: center;
@@ -510,7 +510,7 @@ picture img {
   width: 350px; */
   width: 85%;
 }
-.historic {
+.historic-scv {
   padding-left: 35px;
   padding-right: 35px;
   text-align: center;
@@ -520,47 +520,17 @@ picture img {
   width: 350px; */
   width: 85%;
 }
-.ag-field {
+.ield {
   padding-left: 25px;
   padding-right: 25px;
   text-align: center;
 }
-#velvet-grill {
+#salt-creek{
   /* height: 250px;
   width: 350px;  */
   width: 85%;
 }
-.restaurant {
-  padding-left: 25px;
-  padding-right: 25px;
-  text-align: center;
-}
-#park {
-  /* height: 250px;
-  width: 350px; */
-  width: 85%;
-}
-.park {
-  padding-left: 25px;
-  padding-right: 25px;
-  text-align: center;
-}
-#flea-market {
-  /* height: 250px;
-  width: 350px; */
-  width: 85%;
-}
-.flea-market {
-  padding-left: 25px;
-  padding-right: 25px;
-  text-align: center;
-}
-#water-tower {
-  /* height: 250px;
-  width: 350px; */
-  width: 85%;
-}
-.water {
+.salt-creek {
   padding-left: 25px;
   padding-right: 25px;
   text-align: center;
