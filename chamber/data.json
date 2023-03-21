@@ -5,64 +5,64 @@
         "name": "The Santa Clarita Chiropractor",
         "address":"26883 Sierra Hwy, Santa Clarita, CA 91321",
         "phone": "(661) 424-0400",
-        "website":"drronbittle.com",
-        "imageurl": "images/chiro.jpeg"
+        "website":"www.drronbittle.com",
+        "imageurl": "images/chiropractor.svg"
       },
       {
-        "name": "CPR Cell Phone Repair",
-        "address":"10434 Twin Cities Rd., Ste. 30, Galt, CA 95632",
-        "phone": "(209)734-7720",
-        "website":"cellphonerepair.com",
-        "imageurl": "images/cpr.png"
+        "name": "iDevice Pro Repairs",
+        "address":"18928 Soledad Canyon Rd, Santa Clarita, CA 91350",
+        "phone": "(661) 313-2806",
+        "website":"www.ideviceprorepairs.com",
+        "imageurl": "images/phone.jpeg"
       },
       {
-        "name": "Galt CPA",
-        "address":"545 Industrial Dr. Ste. 110, Galt, CA 95632",
-        "phone": "(209)745-8940",
-        "website":"www.galtcpa.com",
-        "imageurl": "images/galt-cpa.png"
+        "name": "Cindy J. Harris CPA",
+        "address":"545 Industrial Dr. Ste. 110, Santa Clarita, CA 91350",
+        "phone": "(661)745-8940",
+        "website":"www.harridcpa.com",
+        "imageurl": "images/cpa.png"
       },
       {
         "name": "Something Sweet Bakery",
-        "address":"440 C St, Galt, CA 95632",
-        "phone": "(209)745-9000",
-        "website":"somethingsweetgalt.com",
-        "imageurl": "images/something-sweet.png"
+        "address":"440 C St, Santa Clarita, CA 91350",
+        "phone": "(661)745-9000",
+        "website":"www.nothingbundtcakes.com",
+        "imageurl": "images/bundt.webp"
       },
       {
-        "name": "Law Office of Len ReidReynoso",
-        "address":"908 C St., Ste B, Galt, CA 95632",
-        "phone": "(209)745-4411",
-        "website":"reidreynosolaw.com",
-        "imageurl": "images/law-office.webp"
+        "name": "Werner law Firm",
+        "address":"908 C St., Ste B, Santa Clarita, CA 91350",
+        "phone": "(661)745-4411",
+        "website":"www.wernerlaw.com",
+        "imageurl": "images/law.jpeg"
       },
       {
-        "name": "The Beauty Pharm",
-        "address":"220 Market, Galt, CA 95632",
-        "phone": "(209)429-7073",
-        "website":"www.thebeautypharm.net",
-        "imageurl": "images/beauty-pharm.jpg"
+        "name": "Flair Beauty College",
+        "address":"220 Market, Santa Clarita, CA 91350",
+        "phone": "(661)429-7073",
+        "website":"www.flairbeautyschool",
+        "imageurl": "images/flair.jpeg"
       },
       {
-        "name": "Fired Up Pizza",
-        "address":"2656 West Turner Rd., Lodi, CA 95242",
-        "phone": "(209)598-3610",
-        "website":"fireduppizzeria.com",
-        "imageurl": "images/fired-up-pizza.png"
+        "name": "Mod Pizza",
+        "address":"2656 West Turner Rd., Santa Clarita, CA 91350",
+        "phone": "(661)598-3610",
+        "website":"www.modpizza.com",
+        "imageurl": "images/mod.jpeg"
       },
       {
-        "name": "New Hope Dairy",
-        "address":"9547 New Hope Rd, Galt, CA 95632",
-        "phone": "(916)897-6483",
-        "website":"realcaliforniamilk.com",
-        "imageurl": "images/milk-cali.svg"
+        "name": "Yogurtland",
+        "address":"9547 New Hope Rd, Santa Clarita, CA 91350",
+        "phone": "(661)897-6483",
+        "website":"www.yogurtlandcom",
+        "imageurl": "images/yogurt.jpeg"
       },
       {
-        "name": "Delta Humane Society",
-        "address":"N/A",
-        "phone": "(209)466-0339",
-        "website":"deltahumanesociety.org",
-        "imageurl": "images/delta-humane.jpg"
+        "name": "Santa Clarita Animal Shelter",
+        "address":"27433 Tourney Rd, Santa Clarita, CA 91350 ",
+        "phone": "(661)466-0339",
+        "website":"www.scvanimalshelter.org",
+        "imageurl": "images/dog.jpeg"
       }
     ]
 }
