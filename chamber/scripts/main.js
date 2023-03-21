@@ -22,7 +22,7 @@ if (date.getDay() == 1 || date.getDay() == 2) {
     document.querySelector('#banner').style.display = 'block';
 }
 
-const apiURL = "https://api.openweathermap.org/data/2.5/weather?lat=34.3917&lon=-118.5426&appid={a3e2c6c0eadde7523f38fd8317cda6a7}";
+const apiURL = "https://api.openweathermap.org/data/2.5/weather?lat=34.3917&lon=-118.5426&appid=a3e2c6c0eadde7523f38fd8317cda6a7";
 const getWeather = async () => {
     const response = await fetch(apiURL);
     const jsObject = await response.json();
