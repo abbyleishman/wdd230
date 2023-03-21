@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Directory</title>
+    <link rel="stylesheet" href="styles/main.css" >
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/large.css">
+    <link rel="icon" href="images/favicon.ico">
+    <script defer src="scripts/main.js"></script>
+    <script defer src="scripts/directory.js"></script>
+</head>
+<body>
+    <div id="content">
+        <header>
+            <a href="index.html"> <img class="scv logo" src="images/scv_chamberlogo_copy.png" alt="scv city logo"> </a>
+            <h1 class="name">Santa Clarita</h1>
+            <h2 class="name1">Chamber of Commerce</h2>
+            <img class="social_media1" src="images/facebook.png" alt="facebook logo">
+            <img class="social_media2" src="images/twitter.png" alt="twitter logo">
+            <nav>
+                <ul class="navigation">
+                    <li><button onclick="toggleMenu()">&#9776;</button></li>
+                    <li><a href="discover.html">Discover</a></li>
+                    <li><a href="#">Directory</a></li>
+                    <li><a href="join.html">Join</a></li>
+                </ul>
+            </nav>
+            <div class="date"></div>
+            <div id="banner">Come join us for the chamber meet and greet Wednesday at 7:00 p.m.</div>
+        </header>
+        <main id="directory">
+            <div id="display-buttons">
+                <button id="grid-display" onclick="showBusiness()">Table</button>
+                <button id="card-display" onclick="showCard()">Cards</button>
+            </div>
+            <div>
+                <div class="card">
+                </div>
+                <table class="businesses">
+                    <tbody>
+                        <tr>
+                            <td></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </main>
+        <footer>
+            <div class="footer-content">
+                <img class="scv-logo2" src="images/scv_chamberlogo_copy.png" alt="scv city logo">
+                <div id="info1">
+                    <h2>Santa Clarita Chamber of Commerce</h2>
+                    <p>28494 Westinghouse Pl., Santa Clarita, CA 91355</p>
+                </div>
+                <div id="info2">
+                    <p>info@scvcoc.org</p>
+                    <p>+(661) 702-6977</p>
+                    <div class="map">
+                        <a href="https://www.google.com/maps/place/Santa+Clarita+Valley+Chamber+of+Commerce/@34.4430992,-118.6010033,17z/data=!3m1!4b1!4m6!3m5!1s0x80c280b2add3774d:0x2a1c12d713216bb6!8m2!3d34.4430992!4d-118.5988146!16s%2Fg%2F1tg50pft">
+                            <img src="images/pin.jpeg" alt="location pin" class="pin">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div id="me">
+                <p class="time">&copy;<span class="year"></span> Santa Clarita Chamber</p> 
+                <h3>Abby Leishman</h3>
+                <p class="class">WDD 230 Project</p>
+                <p class="updates">Last Modification: <span class="updated"></span></p>
+            </div>
+        </footer>
+    </div>    
+</body>
+</html>
+    
+</body>
+</html>
