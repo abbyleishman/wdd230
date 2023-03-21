@@ -5,19 +5,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description"
-          content= "Santa Clarita Chamber of Commerce directory page">
-    <title>Directory</title>
+          content= "Santa Clarita Chamber of Commerce contact page">
+    <title>Join Us</title>
     <link rel="stylesheet" href="styles/main.css" >
     <link rel="stylesheet" href="styles/medium.css">
     <link rel="stylesheet" href="styles/large.css">
     <link rel="icon" href="images/favicon.ico">
     <script defer src="scripts/main.js"></script>
-    <script defer src="scripts/directory.js"></script>
 </head>
 <body>
     <div id="content">
         <header>
-            <a href="index.html"> <img class="scv-logo" src="images/scv_chamberlogo_copy.png" alt="scv logo"> </a>
+            <a href="index.html"> <img class="scv-logo" src="images/scv_chamberlogo_copy.png" alt="scv city logo"> </a>
             <h1 class="name">Santa Clarita</h1>
             <h2 class="name1">Chamber of Commerce</h2>
             <img class="social_media1" src="images/facebook.png" alt="facebook logo">
@@ -26,7 +25,7 @@
                 <ul class="navigation">
                     <li><button onclick="toggleMenu()">&#9776;</button></li>
                     <li><a href="discover.html">Discover</a></li>
-                    <li><a href="#">Directory</a></li>
+                    <li><a href="directory.html">Directory</a></li>
                     <li><a href="join.html">Join</a></li>
                     <li><a href="contactus.html">Contact Us</a></li>
                 </ul>
@@ -34,26 +33,35 @@
             <div class="date"></div>
             <div id="banner">Come join us for the chamber meet and greet Wednesday at 7:00 p.m.</div>
         </header>
-        <main id="directory">
-            <div id="display-buttons">
-                <button id="grid-display" onclick="showBusiness()">Table</button>
-                <button id="card-display" onclick="showCard()">Cards</button>
-            </div>
-            <div>
-                <div class="card">
+        <main>
+        <div id="join-content">
+                <div id="form">
+                    <label for="fname">First Name*:</label>
+                    <input type="text" name="firstname" id="fname" required>
+
+                    <label for="lname">Last Name*:</label>
+                    <input type="text" name="lastname" id="lname" required>
+
+
+                    <label for="email">Email*:</label>
+                    <input type="email" name="email" required id="email">
+
+                    <label for="telephone">Cell Phone Number*:</label>
+                    <input type="tel" name="telephone" required id="telephone">
+
+                    <label for="business">Question/Concern/Comment*:</label>
+                    <input type="text" name="business" required id="business">
+               
+                    <input id="date" type="hidden" name="todaydate">
+                    <input id="button3" type="submit" value="Submit">
                 </div>
-                <table class="businesses">
-                    <tbody>
-                        <tr>
-                            <td></td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-        </main>
+        </div>    
+                </main>
+
+
         <footer>
             <div class="footer-content">
-                <img class="scv-logo2" src="images/scv_chamberlogo_copy.png" alt="scv city logo">
+                <img class="scv-logo2" src="images/scv_chamberlogo_copy.png" alt="scv logo">
                 <div id="info1">
                     <h2>Santa Clarita Chamber of Commerce</h2>
                     <p>28494 Westinghouse Pl., Santa Clarita, CA 91355</p>
