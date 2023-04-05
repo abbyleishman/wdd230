@@ -1,0 +1,116 @@
+@media only screen and (min-width: 35rem) {
+    nav ul.open li a {
+      font-size: 1.2rem;
+    }
+  
+    main .hero h1 {
+      font-size: 2.5rem;
+    }
+    .button {
+      font-size: 1.2rem;
+    }
+  
+    main .hero .button {
+      width: 100%;
+      max-width: 290px;
+    }
+  
+    .card-container{
+      grid-template-columns: 1fr 1fr;
+    }
+  
+    .fresh{
+      padding-bottom: 0;
+    }
+  
+    .fresh, .social-media{
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+    }
+  
+    .fresh-drink{
+      padding: 1rem;
+      justify-self: flex-end;
+    }
+  
+    .fresh-drink img, .social-media-img img{
+      border: 3px solid #333;
+      border-radius: 4px;
+    }
+  
+    .fresh-drink, .fresh-info, .social-media-info, .social-media-img{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  
+    .fresh-info, .social-media-info{
+      padding: 1rem;
+      flex-direction: column;
+    }
+  
+    .social-media-img{
+      padding: 1rem;
+      justify-self: flex-start;
+    }
+  
+    footer{
+      grid-template-columns: 1fr 1fr 1fr;
+      justify-content: center;
+      align-items: center;
+    }
+  
+    footer ul{
+      flex-direction: column;
+    }
+  
+    footer .copyright {
+      grid-column: span 3;
+    }
+  
+    footer .copyright p {
+      display: inline-block;
+      font-size: 1.2rem;
+    }
+  
+    footer .copyright .last-uptdated {
+      display: block;
+    }
+  
+    footer .copyright .separation {
+      display: inline;
+    }
+  
+    .fresh-container{
+      grid-template-columns: 1fr 1fr 1fr;
+    }
+  
+    .fresh-container .form-container{
+      grid-column: span 1;
+    }
+  
+    .fresh-container div:nth-child(2){
+      grid-column: span 2;
+    }
+  
+    .fresh-container div:nth-child(2) ul{
+      margin: 0;
+      margin-left: 1rem ;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    }
+  
+    .map{
+      flex-direction: row;
+    }
+  
+    .map div{
+      margin: 1rem;
+    }
+  
+    .map .map-info{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+  }
+  
